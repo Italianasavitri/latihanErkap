@@ -53,6 +53,14 @@ import { AddAssetBrandComponent } from 'app/views/administration/master_asset/ad
 import { AddManufactureComponent } from 'app/views/administration/master_asset/add_manufacture/manufacture-add.component';
 import { AddTypeComponent } from 'app/views/administration/master_asset/add_type/type-add.component';
 import { DetailUserComponent } from './user/detail/user-detail.component';
+import { VisiComponent } from './visi/visi.component';
+import { VisiAddComponent } from './visi/visi-add/visi-add.component';
+import { MisiComponent } from './misi/misi.component';
+import { MisiAddComponent } from './misi/misi-add/misi-add.component';
+import { SysmenuComponent } from './sysmenu/sysmenu.component';
+import { SysmenuAddComponent } from './sysmenu/sysmenu-add/sysmenu-add.component';
+import { RolemenuComponent } from './rolemenu/rolemenu.component';
+import { RolemenuAddComponent } from './rolemenu/rolemenu-add/rolemenu-add.component';
 
 @NgModule({
   imports: [
@@ -89,7 +97,15 @@ import { DetailUserComponent } from './user/detail/user-detail.component';
     AddAssetBrandComponent,
     AddManufactureComponent,
     AddTypeComponent,
-    DetailUserComponent
+    DetailUserComponent,
+    VisiComponent,
+    VisiAddComponent,
+    MisiComponent,
+    MisiAddComponent,
+    SysmenuComponent,
+    SysmenuAddComponent,
+    RolemenuComponent,
+    RolemenuAddComponent,
   ],
   exports: [
   ],
