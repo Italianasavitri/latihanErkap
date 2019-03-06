@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MasterAssetComponent } from './master_asset/master_asset.component';
 import { UserComponent } from 'app/views/administration/user/user.component';
 import {RoleComponent} from './role/role.component';
+import {VisiComponent} from './visi/visi.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,12 @@ const routes: Routes = [
         component: RoleComponent,
         data: {
           title: 'Role'
+        }
+      }, {
+        path: 'visi',
+        component: VisiComponent,
+        data: {
+          title: 'visi'
         }
       }
     ]
